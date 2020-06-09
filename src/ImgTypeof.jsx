@@ -15,7 +15,6 @@ const useStyles = makeStyles((theme) => ({
     large: {
       width: theme.spacing(20),
       height: theme.spacing(20),
-      shadows: 4,
     },
     icon:{
         width: theme.spacing(10),
@@ -23,16 +22,16 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 
-function ImgTypeof(){
+  export default function ImgTypeof(){
     const classes = useStyles();
     return(
-        <div className={classes.root} boxShadow={3}>
-                     <Avatar className={classes.large} variant="contained">
+        <div className={classes.root} >
+                     <Avatar className={classes.large}>
                         <SchoolRoundedIcon className={classes.icon} />
                      </Avatar>
         </div>
     );
 
 }
-export default ImgTypeof;
+
   
