@@ -5,15 +5,16 @@ import Banner from './Banner';
 import Menu from './Menu';
 import Skills from './Skills';
 import Container from '@material-ui/core/Container';
+import ListOfSkills from './ListOfSkills';
 
 
 function App() {
   return (
     <div className="App">
       <Container >
-               <Menu/>
+              
                   <Banner/>
-                  <Typeof/>
+           
                   <Skills/>
      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

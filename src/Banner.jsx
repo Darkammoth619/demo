@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Banner(props) {
   const classes = useStyles();
-  const [ profile, setProfile ] = useState(true)
+  const [ profile, setProfile ] = useState(false)
   const { post } = props;
 
   return (
