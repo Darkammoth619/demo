@@ -6,6 +6,7 @@ import Menu from './Menu';
 import Skills from './Skills';
 import Container from '@material-ui/core/Container';
 import ListOfSkills from './ListOfSkills';
+import ManagementCourse from './CoursePage/ManagementCourse';
 
 
 function App() {
@@ -14,8 +15,8 @@ function App() {
       <Container >
               
                   <Banner/>
-           
-                  <Skills/>
+                  <ManagementCourse/>
+                  {/*<Skills/>*/}
      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
