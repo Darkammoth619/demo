@@ -11,7 +11,7 @@ import DeleteRoundedIcon from '@material-ui/icons/DeleteRounded';
 
 const useStyles = makeStyles((theme)=>({
     root: {
-       width:'86%',
+       width:'91%',
        display:'flex'
     },
     title: {

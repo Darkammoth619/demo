@@ -13,9 +13,9 @@ function App() {
   return (
     <div className="App">
       <Container >
-              
-                  <Banner/>
-                  <ManagementCourse/>
+              <ManagementCourse/>
+          
+                  
                   {/*<Skills/>*/}
      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
